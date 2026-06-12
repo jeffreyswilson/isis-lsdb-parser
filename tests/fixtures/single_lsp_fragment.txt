@@ -1,0 +1,56 @@
+Level-1	LspID: 0001.0001.0001.00-00 	SeqNum: 0x0000f1f0 	Lifetime:   336
+	Chksum: 0xbdb  	PDU Length: 214
+	Host_name: LAB-ASW-03
+	Attributes: 	IS-Type 1
+TLV:1	Area Addresses: 1
+		49.0012
+
+
+
+TLV:22	Extended IS reachability:
+	Adjacencies: 3
+	TE Neighbors: 3
+		0001.0002.0001.00 (LAB-ASW-02) 	Metric:10
+			SPBM Sub TLV:
+				port id: 193 num_port 1
+				Metric: 10
+		0001.0002.0004.00 (LAB-ASW-01) 	Metric:10
+			SPBM Sub TLV:
+				port id: 192 num_port 1
+				Metric: 10
+		0001.0001.0002.00 (LAB-ASW-04) 	Metric:10
+			SPBM Sub TLV:
+				port id: 261 num_port 1
+				Metric: 10
+
+TLV:129	Protocol Supported: SPBM
+
+TLV:137	Host_name: LAB-ASW-03
+
+TLV:147	Chassis MAC: aa:bb:cc:dd:ee:ff
+
+TLV:144 SUB-TLV 1	SPBM INSTANCE:
+		Instance: 0
+		bridge_pri: 0
+		OUI: 04-04-12
+		num of trees: 2
+		vid tuple : u-bit 1 m-bit 1 ect-alg 0x80c201 base vid 4051 
+		vid tuple : u-bit 1 m-bit 1 ect-alg 0x80c202 base vid 4052 
+TLV:144 SUB-TLV 3	ISID:
+		Instance: 0
+		Metric: 0
+		B-MAC: 00-01-00-01-00-0a
+		BVID:4052
+		Number of ISID's:1
+			16777215(None)
+
+
+		Instance: 0
+		Metric: 0
+		B-MAC: 00-01-00-01-00-0a
+		BVID:4051
+		Number of ISID's:2
+			16000000(Rx),16777215(None)
+
+
+
