@@ -17,8 +17,7 @@ def test_lsp_summary():
     assert len(tables["lsp_summary"]) == 1
     rec = tables["lsp_summary"][0]
     assert rec["lsp_id"] == "0001.0001.0001.00-00"
-#   assert rec["hostname"] == "LAB-ASW-03"
-    assert rec["hostname"] == "LAB-ASW-WRONG"
+    assert rec["hostname"] == "LAB-ASW-03"
     assert rec["area_address"] == "49.0012"
     assert rec["protocol"] == "SPBM"
     assert rec["chassis_mac"] == "aa:bb:cc:dd:ee:ff"
