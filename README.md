@@ -3,6 +3,19 @@
 Custom Python parser for `show isis lsdb detail` output on Extreme Networks
 VSP (SPBM fabric) devices.
 
+## Independence / Provenance
+
+This is independent, personally authored work. It was written outside of
+and apart from any employer or client engagement, motivated by a general
+parsing problem (deeply nested TLV/sub-TLV structures in `show isis lsdb
+detail` output) encountered while working with Extreme Networks SPBM
+fabrics -- not built as, or derived from, any specific client's
+deliverables, configuration data, or proprietary work product.
+
+All sample/test data in this repository is synthetic or genericized --
+node names, IP ranges, and I-SID values do not correspond to any real
+production network, client, or employer environment.
+
 ## Why not TextFSM
 
 TextFSM is line-oriented: one input line maps to one output field. The ISIS
