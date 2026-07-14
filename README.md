@@ -40,7 +40,8 @@ Produces two output formats:
 ## Status
 
 Parser validated against two SPBM fabric corpora (107-319 LSP fragments).
-Tests and CI pipeline in progress.
+Full CI pipeline: pytest across Python 3.10/3.11, yamllint, Docker build
+-- all green. Dockerfile supports volume-mounted runtime input.
 
 ## Requirements
 
